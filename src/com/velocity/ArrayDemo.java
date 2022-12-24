@@ -12,7 +12,11 @@ public class ArrayDemo {
 		arraylist.add("sarvankika");
 		arraylist.add("uday");
 
-		System.out.println(arraylist);
+		for(String s : arraylist) {
+			System.out.println(s);
+		}
+		
+		
 
 	}
 
